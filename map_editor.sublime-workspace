@@ -1,0 +1,1187 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"b",
+				"binary	const openmode"
+			],
+			[
+				"is",
+				"isblank(int)	int"
+			],
+			[
+				"glutGet",
+				"glutGetModifiers()	int"
+			],
+			[
+				"rende",
+				"renderInteger(int x, int y, int number)	void"
+			],
+			[
+				"glColor3d",
+				"glColor3d(GLdouble red, GLdouble green, GLdouble blue)	void"
+			],
+			[
+				"glColo",
+				"glColor3dv(const GLdouble *v)	void"
+			],
+			[
+				"sta",
+				"starPos	int"
+			],
+			[
+				"issi",
+				"issidl	bool"
+			],
+			[
+				"for",
+				"for	For Loop"
+			],
+			[
+				"n",
+				"name	char [10]"
+			],
+			[
+				"no",
+				"noBadStudents	bool"
+			],
+			[
+				"s",
+				"stud	student *"
+			],
+			[
+				"gro",
+				"group	studGroup*"
+			],
+			[
+				"st",
+				"stud	student *"
+			],
+			[
+				"stu",
+				"studentsNum	int"
+			],
+			[
+				"grou",
+				"group	studGroup*"
+			],
+			[
+				"group",
+				"groupsNum	int*"
+			],
+			[
+				"posi",
+				"positions	posit *"
+			],
+			[
+				"fi",
+				"firms	firm *"
+			],
+			[
+				"colo",
+				"color_position	int"
+			],
+			[
+				"color",
+				"color_position	int"
+			],
+			[
+				"best_",
+				"best_color_cards	int"
+			],
+			[
+				"bes",
+				"best_color_position	int"
+			],
+			[
+				"best_colo",
+				"best_color_cards	int"
+			],
+			[
+				"cr",
+				"card_num	int"
+			],
+			[
+				"best",
+				"best_color	int"
+			],
+			[
+				"card",
+				"card_num	int"
+			],
+			[
+				"la",
+				"last_of_stack(int i)	int"
+			],
+			[
+				"car",
+				"card_num	int"
+			],
+			[
+				"ca",
+				"cards	int *"
+			],
+			[
+				"remove",
+				"remove_last_card()	void"
+			],
+			[
+				"remo",
+				"remove_cards(int position)	void"
+			],
+			[
+				"col",
+				"color	int"
+			],
+			[
+				"best_color",
+				"best_color_position	int"
+			],
+			[
+				"best_c",
+				"best_color	int"
+			],
+			[
+				"stack",
+				"stacks	stack *"
+			],
+			[
+				"outp",
+				"output_long_words(char *str, int len)	void"
+			],
+			[
+				"lex",
+				"lexNum	int"
+			],
+			[
+				"flu",
+				"flush(basic_ostream<_CharT, _Traits> &__os)	basic_ostream<_CharT, _Traits> &"
+			],
+			[
+				"de",
+				"delim	char [6]"
+			],
+			[
+				"remw",
+				"remove_words_para(char *s1, char *s2, char *delim)	void"
+			],
+			[
+				"strnc",
+				"strncmp(char *__s1, char *__s2, size_t __n)	int"
+			],
+			[
+				"stri",
+				"string2	char[]"
+			],
+			[
+				"lex1",
+				"lex1Num	int"
+			],
+			[
+				"lex2",
+				"lex2Num	int"
+			],
+			[
+				"isal",
+				"isalpha(int)	int"
+			],
+			[
+				"strT",
+				"strtok(char *__s, char *__delim)	char *"
+			],
+			[
+				"strto",
+				"strtok(char *__s, char *__delim)	char *"
+			],
+			[
+				"rem",
+				"remove_words(char *s1, char *s2, char *destinator)	void"
+			],
+			[
+				"use",
+				"user2Moves	int"
+			],
+			[
+				"next",
+				"nextToPlayer	bool"
+			],
+			[
+				"topai",
+				"toPaintNum	int"
+			],
+			[
+				"top",
+				"toPaintNum	int"
+			],
+			[
+				"toPa",
+				"toPaint	cell**"
+			],
+			[
+				"toPai",
+				"toPaintNum	int"
+			],
+			[
+				"bestCol",
+				"bestColorFields	int"
+			],
+			[
+				"nex",
+				"nextCellNum	int"
+			],
+			[
+				"su",
+				"inputSubs	int *"
+			],
+			[
+				"inpu",
+				"inputSubsNum	int"
+			],
+			[
+				"rea",
+				"react	reaction *"
+			],
+			[
+				"out",
+				"outputFile	ofstream"
+			],
+			[
+				"input",
+				"inputFile	ifstream"
+			],
+			[
+				"req",
+				"reqSubsNum	int"
+			],
+			[
+				"re",
+				"reqSubsNum	int"
+			],
+			[
+				"bubble",
+				"bubbleSwap	int"
+			],
+			[
+				"bubb",
+				"bubbleSwap	int"
+			],
+			[
+				"word",
+				"wordplace	int"
+			],
+			[
+				"maxk",
+				"maxknum	int"
+			],
+			[
+				"srand",
+				"srand(unsigned int __seed)	void"
+			],
+			[
+				"init",
+				"initArrayC(int *a, int *b, float *c)	void"
+			],
+			[
+				"max",
+				"max_serie_lenth	int"
+			],
+			[
+				"co",
+				"countPIVallice()	double"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 1760,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "makefile",
+			"settings":
+			{
+				"buffer_size": 550,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "engine/graph.h",
+			"settings":
+			{
+				"buffer_size": 395,
+				"line_ending": "Windows",
+				"name": "graph.h"
+			}
+		},
+		{
+			"file": "engine/graph.cpp",
+			"settings":
+			{
+				"buffer_size": 468,
+				"line_ending": "Windows",
+				"name": "graph.cpp"
+			}
+		},
+		{
+			"file": "/home/taras/known songs",
+			"settings":
+			{
+				"buffer_size": 260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/taras/dev/installed.txt",
+			"settings":
+			{
+				"buffer_size": 184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/taras/main.py",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Unix",
+				"name": "main.py"
+			}
+		},
+		{
+			"file": "engine/edge.h",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "engine/edge.cpp",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Windows",
+				"name": "edge.cpp"
+			}
+		},
+		{
+			"file": "engine/node.h",
+			"settings":
+			{
+				"buffer_size": 156,
+				"line_ending": "Windows",
+				"name": "node.h"
+			}
+		},
+		{
+			"file": "engine/node.cpp",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Windows",
+				"name": "node.cpp"
+			}
+		},
+		{
+			"file": "engine/position.h",
+			"settings":
+			{
+				"buffer_size": 397,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "engine/position.cpp",
+			"settings":
+			{
+				"buffer_size": 855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "engine/openGLStrings.cpp",
+			"settings":
+			{
+				"buffer_size": 417,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 209.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/taras/Downloads/map.osm",
+		"/home/taras/update/settings.ini",
+		"/home/taras/todo.txt",
+		"/media/data/projects/map-editor/input.dat",
+		"/home/taras/known songs",
+		"/home/taras/Downloads/graph_01_2.txt",
+		"/media/data/projects/map-editor/makefile",
+		"/home/taras/.config/sublime-text-2/Packages/Makefile/Make.sublime-build",
+		"/home/taras/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/taras/Downloads/labb1.cpp",
+		"/home/taras/main.cpp",
+		"/C/Users/Taras/Downloads/Program (1).cs",
+		"/C/Users/Taras/Downloads/sources/labb1.cpp",
+		"/D/projects/map-editor/makefile",
+		"/C/Users/Taras/Downloads/sources/lab_1 (1).cpp",
+		"/C/Users/Taras/Downloads/sources/lab_1.cpp",
+		"/D/projects/map-editor/engine/main.cpp",
+		"/D/wot_stats",
+		"/C/Users/Taras/Desktop/7 лвл.txt",
+		"/D/projects/new_project/main.cpp",
+		"/D/Backup/Backup/dev/megaminx/makefile",
+		"/D/index.html",
+		"/D/projects/new_project/makefile",
+		"/D/projects/new_project/maze.in",
+		"/C/Users/Taras/AppData/Roaming/Sublime Text 2/Packages/Makefile/Make.sublime-build",
+		"/D/tanks",
+		"/D/Backup/ubuntu backup/dev/investigation/glut init/initGLUT.cpp",
+		"/D/Backup/Backup/Documents/oppinion.c",
+		"/D/Education/Programming/main.cpp",
+		"/D/Backup/Backup/dev/investigation/ds/ans",
+		"/D/Backup/Backup/dev/investigation/ds/double_square",
+		"/C/Users/Taras/Desktop/manual.cpp",
+		"/C/Users/Taras/Downloads/sources/main.cpp",
+		"/C/Users/Taras/city-simulator/engine/makefile",
+		"/C/Users/Taras/Downloads/Program.cs",
+		"/C/Users/Taras/city-simulator/makefile",
+		"/C/Users/Taras/city-simulator/engine/car.h",
+		"/C/Users/Taras/city-simulator/engine/car.cpp",
+		"/C/Users/Taras/Downloads/sources/makefile",
+		"/C/Users/Taras/Downloads/main.cpp",
+		"/C/Users/Taras/Desktop/main.cpp",
+		"/C/Users/Taras/Desktop/makefile",
+		"/C/main.cpp",
+		"/C/makefile",
+		"/D/main.cpp",
+		"/C/Users/Taras/Downloads/sources/Trying.cpp",
+		"/C/Users/Taras/Downloads/timedtext.xml",
+		"/C/Users/Taras/timedtext.xml",
+		"/D/Dropbox/.dropbox",
+		"/C/Users/Taras/Downloads/sources/Trying (1).cpp",
+		"/C/Users/Taras/Dropbox/Diplom_magistr/dtc/new-dyn-tc/new-dtc/src/Algorithms/dtc_di.c",
+		"/C/Users/Taras/Dropbox/Diplom_magistr/dtc/new-dyn-tc/new-dtc/incl/LEP/dynamic_graphs/dtc_di.h",
+		"/D/Documents/what to do in a free time.txt",
+		"/D/Documents/mac",
+		"/D/Documents/todo.txt",
+		"/C/Users/Taras/Downloads/MTW6.9/Install/serial.txt",
+		"/C/Users/Taras/Downloads/sources/main (1).cpp",
+		"/C/Users/Taras/Downloads/task1.cpp",
+		"/D/DIPLOM/new-dtc/src/Algorithms/dtc_di.c",
+		"/C/Users/Taras/todo",
+		"/C/Users/Taras/Downloads/LastFMScrobblerPlugin.v1.0/Readme.md",
+		"/D/new-dtc/incl/LEP/dynamic_graphs/msg_graph.h",
+		"/D/new-dtc/incl/LEP/dynamic_graphs/dga_base.h",
+		"/D/new-dtc/incl/LEP/dynamic_graphs/dtc_di.h",
+		"/D/new-dtc/src/Algorithms/dtc_di.c",
+		"/C/Users/Taras/biplanes/makefile",
+		"/C/Users/Taras/Downloads/matrix",
+		"/D/Новая папка/Программы/8_2.cpp",
+		"/D/Games/World Of Tanks/res_mods/xvm/configs/colors.xc",
+		"/D/8_2.cpp",
+		"/E/md5sum.txt",
+		"/C/Users/Taras/Downloads/input.txt",
+		"/C/Users/Taras/Downloads/exam.txt",
+		"/C/Users/Taras/Downloads/bilet_5_2.txt",
+		"/G/прога/5_2.cpp",
+		"/G/Bilety/5(2).cpp",
+		"/E/TXT/examKovaluk/prog/5_2.txt",
+		"/E/TXT/examKovaluk/prog/IMPORTANT.txt",
+		"/D/Education/Programming/1 курс/1 курс/Другий семестр/Algoritm&Programming/Labs/Lab 4_1/Lab 4_1/Lab 4_1.cpp",
+		"/C/Users/Taras/Downloads/sources/PALEVO/11_2.cpp",
+		"/G/EXAM/9/9/9.cpp",
+		"/D/Education/Programming/1 курс/1 курс/Другий семестр/Algoritm&Programming/Labs/Lab 2_1/Lab 2_1/1.cpp",
+		"/C/Users/Taras/Downloads/sources/PALEVO/11.2.cpp",
+		"/D/Education/Programming/Group/Klimenko Vadim/lab9.cpp",
+		"/C/Users/Taras/Downloads/sources/9 (1).cpp",
+		"/C/Users/Taras/Downloads/sources/9 (2).cpp",
+		"/C/Users/Taras/Downloads/sources/9 (3).cpp",
+		"/C/Users/Taras/Downloads/sources/9 (4).cpp",
+		"/C/Users/Taras/Downloads/sources/9 (5).cpp",
+		"/C/Users/Taras/Downloads/sources/9.cpp",
+		"/C/Users/Taras/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Taras/Downloads/z4_4.pas",
+		"/C/Users/Taras/Downloads/sources/m.cpp",
+		"/C/Users/Taras/AppData/Roaming/Sublime Text 2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/C/Users/Taras/Downloads/sources/PALEVO/9 (2).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (34).cpp",
+		"/C/Users/Taras/Downloads/sources/Iskhodny_kod (1).cpp",
+		"/C/Users/Taras/Downloads/sources/17_2.cpp",
+		"/C/Users/Taras/Downloads/sources/Source (35).cpp",
+		"/C/Users/Taras/Downloads/sources/5.2.cpp",
+		"/C/Users/Taras/Downloads/sources/5.cpp",
+		"/D/Education/Programming/1 курс/1 курс/Перший семестр/Discret Maths/Лекции/План дня.txt",
+		"/D/Games/World Of Tanks/res_mods/xvm/configs/DeSeRtod/colors.xc",
+		"/C/Users/Taras/Downloads/sources/Iskhodny_kod.cpp",
+		"/C/Users/Taras/Downloads/sources/Source (29).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (30).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (31).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (32).cpp",
+		"/C/Users/Taras/Downloads/sources/Source.cpp",
+		"/C/Users/Taras/Downloads/sources/Source_3.cpp",
+		"/C/Users/Taras/Downloads/sources/Source_17 (1).cpp",
+		"/C/Users/Taras/Downloads/sources/Source_17.cpp",
+		"/C/Users/Taras/Downloads/sources/Source-1.cpp",
+		"/C/Users/Taras/Downloads/sources/Source (28).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (27).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (26).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (25).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (24).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (23).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (22).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (21).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (20).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (19).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (18).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (17).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (16).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (15).cpp",
+		"/C/Users/Taras/Downloads/sources/Source (14).cpp"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"287879825",
+			"node",
+			"Decart2d",
+			"key",
+			"run",
+			"engine",
+			"graph",
+			"main.cpp",
+			"0",
+			"1",
+			"2",
+			"1",
+			"2",
+			"0",
+			"6000",
+			"*",
+			"arr",
+			"a",
+			"j",
+			"10",
+			"issidl",
+			"sidl",
+			"maxX",
+			"4",
+			"5",
+			"string",
+			"5",
+			"cygwin64",
+			"good",
+			"exStudent",
+			" < ",
+			" = ",
+			" ",
+			"Search",
+			"User_add",
+			"noBadStuds",
+			"rotateWord",
+			"averageMark",
+			"i",
+			"endl",
+			"зчитуємо",
+			"inputFile",
+			"input",
+			"pause",
+			"#",
+			"int",
+			"goodStudent",
+			"goodStudNum",
+			"групи",
+			"l",
+			"int",
+			"group",
+			"marks",
+			"++",
+			"i",
+			"++)",
+			"++i",
+			"groups",
+			"max_color",
+			"remove_las",
+			"card_num",
+			"i",
+			"int",
+			"n",
+			"k",
+			"word_len",
+			"j",
+			"s2",
+			"strlen(lex[i])",
+			"lex[i]",
+			"j",
+			"s2",
+			"groups",
+			"group",
+			"\";\n",
+			"i",
+			"cerr",
+			"lex1Num",
+			"lex1",
+			"position",
+			"s1",
+			"lexNum",
+			"lex1Num",
+			"lex1",
+			"lexeme",
+			"lexeme1",
+			"lexemes",
+			"cout",
+			"wordNum",
+			"destinator",
+			"i",
+			"row",
+			", int line",
+			", col",
+			"out",
+			"cerr",
+			"if",
+			" + 1",
+			"m",
+			"player",
+			"nextToPlayer",
+			"i",
+			"user2moves",
+			"colorfields",
+			"i",
+			"int",
+			"i",
+			"field",
+			".",
+			"cerr",
+			"input",
+			"inputSubsNum",
+			"cout",
+			"react",
+			"reaction* react",
+			"r",
+			"i",
+			"inputSubs",
+			"вхідних",
+			"react[i]",
+			"*j",
+			"(*j)",
+			"(*j",
+			"*",
+			"*i",
+			"(*i)",
+			"*",
+			"reqSubsNum"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.cpp",
+					"settings":
+					{
+						"buffer_size": 1760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								521,
+								521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "makefile",
+					"settings":
+					{
+						"buffer_size": 550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "engine/graph.h",
+					"settings":
+					{
+						"buffer_size": 395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								347,
+								347
+							]
+						],
+						"settings":
+						{
+							"auto_name": "graph.h",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 259.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "engine/graph.cpp",
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"auto_name": "graph.cpp",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 525.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/taras/known songs",
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/taras/dev/installed.txt",
+					"settings":
+					{
+						"buffer_size": 184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/taras/main.py",
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"auto_name": "main.py",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "engine/edge.h",
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "engine/edge.cpp",
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"auto_name": "edge.cpp",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "engine/node.h",
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"auto_name": "node.h",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "engine/node.cpp",
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"auto_name": "node.cpp",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "engine/position.h",
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "engine/position.cpp",
+					"settings":
+					{
+						"buffer_size": 855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "engine/openGLStrings.cpp",
+					"settings":
+					{
+						"buffer_size": 417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 43.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.clang":
+	{
+		"height": 178.0
+	},
+	"output.exec":
+	{
+		"height": 157.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

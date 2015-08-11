@@ -22,6 +22,8 @@ public:
 	double angle();
 	double angle(const Position& other);
 
+	Position operator - (const Position&);
+
 private:
 	double _x;
 	double _y;

@@ -17,7 +17,7 @@ void specialKeyboard(int key, int x, int y);
 int main(int argc, char *argv[])
 {
 	initGLUT(argc, argv);
-	graph.loadGraph(edgeList, "graph.txt");
+	graph.load("graph.txt");
 	glutMainLoop();
 	return 0;
 }
@@ -69,10 +69,10 @@ void specialKeyboard(int key, int x, int y)
 void initGLUT(int argc, char** argv)
 {
 	glutInit(&argc, argv);
-	// int w = glutGet(GLUT_SCREEN_WIDTH);
-	// int h = glutGet(GLUT_SCREEN_HEIGHT);
-	int w = 800;
-	int h = 600;
+	int w = glutGet(GLUT_SCREEN_WIDTH);
+	int h = glutGet(GLUT_SCREEN_HEIGHT);
+	// int w = 800;
+	// int h = 600;
 	glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGBA);
 	glutInitWindowSize(w, h);
 	glutInitWindowPosition(150, 50);

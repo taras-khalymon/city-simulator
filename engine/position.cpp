@@ -46,7 +46,7 @@ double Position::distance()
 
 double Position::distance(const Position& other)
 {
-	return sqrt(pow10(_x - other._x) + pow10(_y - other._y));
+	return sqrt((_x - other._x) * (_x - other._x) + (_y - other._y) * (_y - other._y));
 }
 
 double Position::angle()
@@ -62,5 +62,10 @@ double Position::angle(const Position& other)
 	if (_y - other._y > 0)
 		return acos((_x - other._x) / distance(other));
 	else
-		return 2 * PI - acos(_x - other._x / distance(other));
+		return 2 * PI - acos((_x - other._x) / distance(other));
+}
+
+Position Position::operator - (const Position& other)
+{
+	return Position (this->_x - other._x, this->_y - other._y);
 }

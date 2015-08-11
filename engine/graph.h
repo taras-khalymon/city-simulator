@@ -2,15 +2,8 @@
 #define __GRAPH_H__
 
 #include <vector>
-
+#include <fstream>
 #include "node.h"
-
-enum graphInputType
-{
-	adjacencyMatrix,	// adjacency matrix
-	edgeList,			// edge list
-	incidenceMatrix		// incidence matrix
-};
 
 class Graph
 {
@@ -18,12 +11,14 @@ public:
 	Graph();
 	~Graph();
 
-	bool loadGraph(graphInputType type, const char* filename);
+	bool load(const char* filename);
+	void generate();
 	void render();
 	void openMapEditor();
 
 private:
 	std::vector<Node> node;
+	std::vector<Edge> edge;
 };
 
 #endif

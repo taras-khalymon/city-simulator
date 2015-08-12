@@ -6,6 +6,8 @@
 class Node;
 class Edge;
 
+typedef std::vector<Edge>::iterator EdgeRef;
+
 #include "node.h"
 
 class Edge
@@ -17,10 +19,16 @@ public:
 
 	void render();
 
+	bool isBackRoad(EdgeRef edge);
+	void initBackRoad(EdgeRef edge);
+
 private:
 	NodeRef start;
 	NodeRef dest;
 	int lines;
+	int backLines;
+
+	static int w;
 };
 
 #endif

@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 {
 	initGLUT(argc, argv);
 	graph.load("graph.txt");
+	glScaled(0.8, 0.8, 1);
 	glutMainLoop();
 	return 0;
 }
@@ -77,7 +78,7 @@ void initGLUT(int argc, char** argv)
 	glutInitWindowSize(w, h);
 	glutInitWindowPosition(150, 50);
 	glutCreateWindow("city-simulator v0.1");
-	glClearColor(0.0, 0.0, 0.0, 0.0);
+	glClearColor(1, 1, 1, 0.0);
 	glLoadIdentity();
 	glOrtho(0, w, h, 0, -2, 2);
 	glMatrixMode(GL_MODELVIEW);
@@ -89,6 +90,7 @@ void initGLUT(int argc, char** argv)
 	glutMotionFunc(mousePressedMove);
 	glutKeyboardFunc(keyboard);
 	glutSpecialFunc(specialKeyboard);
+	// glEnable(GL_LINE_WIDTH);
 
 	// glutFullScreen();
 }

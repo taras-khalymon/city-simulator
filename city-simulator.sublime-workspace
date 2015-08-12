@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"glverte2d",
+				"glVertex2d(GLdouble x, GLdouble y)	void"
+			],
+			[
+				"li",
+				"lines	int"
+			],
+			[
 				"edge",
 				"edgeNum	int"
 			],
@@ -371,7 +379,7 @@
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 1723,
+				"buffer_size": 1732,
 				"line_ending": "Windows"
 			}
 		},
@@ -379,7 +387,7 @@
 			"file": "engine/node.h",
 			"settings":
 			{
-				"buffer_size": 357,
+				"buffer_size": 361,
 				"line_ending": "Windows"
 			}
 		},
@@ -387,7 +395,7 @@
 			"file": "engine/node.cpp",
 			"settings":
 			{
-				"buffer_size": 466,
+				"buffer_size": 429,
 				"line_ending": "Windows"
 			}
 		},
@@ -395,7 +403,7 @@
 			"file": "engine/graph.h",
 			"settings":
 			{
-				"buffer_size": 482,
+				"buffer_size": 302,
 				"line_ending": "Windows"
 			}
 		},
@@ -403,7 +411,7 @@
 			"file": "engine/graph.cpp",
 			"settings":
 			{
-				"buffer_size": 1511,
+				"buffer_size": 1276,
 				"line_ending": "Windows"
 			}
 		},
@@ -419,7 +427,7 @@
 			"file": "engine/edge.cpp",
 			"settings":
 			{
-				"buffer_size": 344,
+				"buffer_size": 2036,
 				"line_ending": "Windows"
 			}
 		},
@@ -435,7 +443,7 @@
 			"file": "engine/position.h",
 			"settings":
 			{
-				"buffer_size": 397,
+				"buffer_size": 438,
 				"line_ending": "Unix"
 			}
 		},
@@ -443,7 +451,7 @@
 			"file": "engine/position.cpp",
 			"settings":
 			{
-				"buffer_size": 855,
+				"buffer_size": 1002,
 				"line_ending": "Unix"
 			}
 		},
@@ -459,7 +467,7 @@
 			"file": "graph.txt",
 			"settings":
 			{
-				"buffer_size": 46,
+				"buffer_size": 244,
 				"line_ending": "Unix"
 			}
 		}
@@ -500,16 +508,8 @@
 	},
 	"file_history":
 	[
-		"/home/taras/dev/private/oppinion.cpp",
-		"/home/taras/dev/private/oppinion",
-		"/home/taras/dev/private/oppinion.c",
-		"/home/taras/dev/private/ans",
-		"/home/taras/dev/private/корисні поради",
-		"/home/taras/dev/folders",
-		"/home/taras/dev/find",
-		"/home/taras/dev/discrette/realizations/fold",
-		"/home/taras/dev/city-simulator/engine/lol",
-		"/home/taras/dev/city-simulator/makefile",
+		"/home/taras/dev/biplanes/main.cpp",
+		"/home/taras/dev/biplanes/game.cpp",
 		"/home/taras/dev/city-simulator-old/engine/road.h",
 		"/home/taras/dev/city-simulator/graph.txt",
 		"/home/taras/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
@@ -525,6 +525,7 @@
 		"/home/taras/dev/city-simulator/engine/edge.h",
 		"/media/win/Users/Taras/Downloads/1.pas",
 		"/home/taras/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+		"/home/taras/dev/city-simulator/makefile",
 		"/home/taras/makefile",
 		"/home/taras/.config/sublime-text-2/Packages/C++/C++.sublime-build",
 		"/home/taras/Downloads/map.osm",
@@ -627,7 +628,14 @@
 		"/C/Users/Taras/Downloads/input.txt",
 		"/C/Users/Taras/Downloads/exam.txt",
 		"/C/Users/Taras/Downloads/bilet_5_2.txt",
-		"/G/прога/5_2.cpp"
+		"/G/прога/5_2.cpp",
+		"/G/Bilety/5(2).cpp",
+		"/E/TXT/examKovaluk/prog/5_2.txt",
+		"/E/TXT/examKovaluk/prog/IMPORTANT.txt",
+		"/D/Education/Programming/1 курс/1 курс/Другий семестр/Algoritm&Programming/Labs/Lab 4_1/Lab 4_1/Lab 4_1.cpp",
+		"/C/Users/Taras/Downloads/sources/PALEVO/11_2.cpp",
+		"/G/EXAM/9/9/9.cpp",
+		"/D/Education/Programming/1 курс/1 курс/Другий семестр/Algoritm&Programming/Labs/Lab 2_1/Lab 2_1/1.cpp"
 	],
 	"find":
 	{
@@ -646,17 +654,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			".txt\n",
-			".md",
-			".hpp\n",
-			".png\n",
-			".so\n",
-			"makefile",
-			".git",
-			".h\n",
-			".o\n",
-			"cpp",
-			"\n./",
+			"5",
+			"start",
 			"10",
 			"dirty",
 			"delay",
@@ -773,7 +772,16 @@
 			"\";\n",
 			"i",
 			"cerr",
-			"lex1Num"
+			"lex1Num",
+			"lex1",
+			"position",
+			"s1",
+			"lexNum",
+			"lex1Num",
+			"lex1",
+			"lexeme",
+			"lexeme1",
+			"lexemes"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -791,7 +799,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -799,15 +807,15 @@
 					"file": "main.cpp",
 					"settings":
 					{
-						"buffer_size": 1723,
+						"buffer_size": 1732,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								520,
-								520
+								494,
+								494
 							]
 						],
 						"settings":
@@ -816,7 +824,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 232.0,
+						"translation.y": 312.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -826,15 +834,15 @@
 					"file": "engine/node.h",
 					"settings":
 					{
-						"buffer_size": 357,
+						"buffer_size": 361,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								303,
-								303
+								0,
+								0
 							]
 						],
 						"settings":
@@ -843,7 +851,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 200.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -853,15 +861,15 @@
 					"file": "engine/node.cpp",
 					"settings":
 					{
-						"buffer_size": 466,
+						"buffer_size": 429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								175,
-								175
+								0,
+								0
 							]
 						],
 						"settings":
@@ -870,7 +878,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 401.0,
+						"translation.y": 336.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -880,15 +888,15 @@
 					"file": "engine/graph.h",
 					"settings":
 					{
-						"buffer_size": 482,
+						"buffer_size": 302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								477,
-								477
+								0,
+								0
 							]
 						],
 						"settings":
@@ -897,7 +905,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 200.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -907,15 +915,15 @@
 					"file": "engine/graph.cpp",
 					"settings":
 					{
-						"buffer_size": 1511,
+						"buffer_size": 1276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1245,
-								1245
+								0,
+								0
 							]
 						],
 						"settings":
@@ -924,7 +932,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1716.0,
+						"translation.y": 1421.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -951,7 +959,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 245.0,
+						"translation.y": 205.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -961,15 +969,15 @@
 					"file": "engine/edge.cpp",
 					"settings":
 					{
-						"buffer_size": 344,
+						"buffer_size": 2036,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								305,
-								305
+								1790,
+								1790
 							]
 						],
 						"settings":
@@ -978,7 +986,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 616.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1015,15 +1023,15 @@
 					"file": "engine/position.h",
 					"settings":
 					{
-						"buffer_size": 397,
+						"buffer_size": 438,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								352,
-								352
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1032,7 +1040,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 211.0,
+						"translation.y": 204.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1042,15 +1050,15 @@
 					"file": "engine/position.cpp",
 					"settings":
 					{
-						"buffer_size": 855,
+						"buffer_size": 1002,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								855,
-								855
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1059,7 +1067,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1255.0,
+						"translation.y": 1212.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1095,15 +1103,15 @@
 					"file": "graph.txt",
 					"settings":
 					{
-						"buffer_size": 46,
+						"buffer_size": 244,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18,
-								18
+								0,
+								0
 							]
 						],
 						"settings":

@@ -51,6 +51,17 @@ bool Graph::load(const char* filename)
 		if (roadLines < 1) return false;
 		edge.push_back(Edge(node.begin() + roadStart - 1, node.begin() + roadDest - 1, roadLines));
 	}
+	// std::cerr << "what's wrong?";
+	for (std::vector<Edge>::iterator i = edge.begin(); i != edge.end(); ++i)
+	{
+		for (std::vector<Edge>::iterator j = edge.begin(); j != edge.end(); ++j)
+		{
+			if (i->isBackRoad(j))
+			{
+				i->initBackRoad(j);
+			}
+		}
+	}
 	return true;
 }
 
@@ -61,10 +72,10 @@ void Graph::generate()
 
 void Graph::render()
 {
-	for (std::vector<Node>::iterator i = node.begin(); i != node.end(); ++i)
-	{
-		i->render();
-	}
+	// for (std::vector<Node>::iterator i = node.begin(); i != node.end(); ++i)
+	// {
+	// 	i->render();
+	// }
 	for (std::vector<Edge>::iterator i = edge.begin(); i != edge.end(); ++i)
 	{
 		i->render();

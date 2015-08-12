@@ -24,9 +24,14 @@ public:
 
 	Position pos();
 
+	bool operator == (const Node& n);
+
 private:
 	Position nodePos;
 	double posvec[2];
+	int id;
+
+	static int curId;
 };
 
 #endif

@@ -1,5 +1,5 @@
 #include <GL/glut.h>
-#include "edge.h"
+#include "edge.hpp"
 
 int Edge::w = 30;
 

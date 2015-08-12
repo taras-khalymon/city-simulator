@@ -8,7 +8,7 @@ class Edge;
 
 typedef std::vector<Edge>::iterator EdgeRef;
 
-#include "node.h"
+#include "node.hpp"
 
 class Edge
 {

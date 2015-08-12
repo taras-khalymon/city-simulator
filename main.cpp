@@ -1,7 +1,7 @@
 #include <GL/glut.h>
 #include <iostream>
 #include <string.h>
-#include "engine/graph.h"
+#include "engine/graph.hpp"
 
 Graph graph;
 

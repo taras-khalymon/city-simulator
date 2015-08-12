@@ -2,14 +2,14 @@
 #define __NODE_H__
 
 #include <vector>
-#include "position.h"
+#include "position.hpp"
 
 class Node;
 class Edge;
 
 typedef std::vector<Node>::iterator NodeRef;
 
-#include "edge.h"
+#include "edge.hpp"
 
 class Node
 {

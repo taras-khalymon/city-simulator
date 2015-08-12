@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <fstream>
-#include "node.h"
+#include "node.hpp"
 
 class Graph
 {

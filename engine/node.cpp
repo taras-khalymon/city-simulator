@@ -1,5 +1,5 @@
 #include <GL/glut.h>
-#include "node.h"
+#include "node.hpp"
 
 int Node::curId = 0;
 

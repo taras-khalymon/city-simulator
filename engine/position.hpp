@@ -1,5 +1,5 @@
-#ifndef __DECART_H__
-#define __DECART_H__
+#ifndef __DECART_HPP__
+#define __DECART_HPP__
 
 #include <math.h>
 
@@ -7,26 +7,28 @@ class Position
 {
 public:
 	Position();
-	Position(const int& x, const int& y);
+	Position(const double& x, const double& y);
 	~Position();
 
-	double x();
-	double y();
+	const double& x() const;
+	const double& y() const;
 	
 	void x(const double& x);
 	void y(const double& y);
 
-	double distance();
-	double distance(const Position& other);
+	double distance() const;
+	double distance(const Position& other) const;
 
-	double angle();
-	double angle(const Position& other);
+	double angle() const;
+	double angle(const Position& other) const;
 
-	Position operator - (const Position&);
+	const double* v() const;
+
+	const Position operator - (const Position&) const;
 
 private:
-	double _x;
-	double _y;
+	// coordinates
+	double c[2];
 };
 
 #endif

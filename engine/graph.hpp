@@ -1,9 +1,10 @@
-#ifndef __GRAPH_H__
-#define __GRAPH_H__
+#ifndef __GRAPH_HPP__
+#define __GRAPH_HPP__
 
 #include <vector>
 #include <fstream>
 #include "node.hpp"
+#include "car.hpp"
 
 class Graph
 {
@@ -14,11 +15,13 @@ public:
 	bool load(const char* filename);
 	void generate();
 	void render();
+	void advance();
 	void openMapEditor();
 
 private:
 	std::vector<Node> node;
-	std::vector<Edge> edge;
+	std::vector<Road> road;
+	std::vector<Car> car;
 };
 
 #endif

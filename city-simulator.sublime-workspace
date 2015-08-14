@@ -4,12 +4,8 @@
 		"selected_items":
 		[
 			[
-				"glverte2d",
-				"glVertex2d(GLdouble x, GLdouble y)	void"
-			],
-			[
-				"li",
-				"lines	int"
+				"x",
+				"x(const double &x)	void"
 			],
 			[
 				"edge",
@@ -34,10 +30,6 @@
 			[
 				"for",
 				"for	For Loop"
-			],
-			[
-				"x",
-				"x(const double &x)	void"
 			],
 			[
 				"no",
@@ -379,31 +371,15 @@
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 1732,
+				"buffer_size": 1757,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "engine/node.h",
+			"file": "engine/graph.hpp",
 			"settings":
 			{
-				"buffer_size": 361,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "engine/node.cpp",
-			"settings":
-			{
-				"buffer_size": 429,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "engine/graph.h",
-			"settings":
-			{
-				"buffer_size": 302,
+				"buffer_size": 304,
 				"line_ending": "Windows"
 			}
 		},
@@ -411,39 +387,63 @@
 			"file": "engine/graph.cpp",
 			"settings":
 			{
-				"buffer_size": 1276,
+				"buffer_size": 1644,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/home/taras/dev/city-simulator-old/engine/croad.h",
+			"file": "engine/edge.hpp",
 			"settings":
 			{
-				"buffer_size": 470,
-				"line_ending": "Unix"
+				"buffer_size": 508,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "engine/edge.cpp",
 			"settings":
 			{
-				"buffer_size": 2036,
+				"buffer_size": 1406,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "engine/edge.h",
+			"file": "engine/line.hpp",
 			"settings":
 			{
-				"buffer_size": 269,
+				"buffer_size": 338,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "engine/line.cpp",
+			"settings":
+			{
+				"buffer_size": 1771,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "engine/node.hpp",
+			"settings":
+			{
+				"buffer_size": 430,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "engine/position.h",
+			"file": "engine/node.cpp",
 			"settings":
 			{
-				"buffer_size": 438,
+				"buffer_size": 575,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "engine/position.hpp",
+			"settings":
+			{
+				"buffer_size": 495,
 				"line_ending": "Unix"
 			}
 		},
@@ -451,16 +451,8 @@
 			"file": "engine/position.cpp",
 			"settings":
 			{
-				"buffer_size": 1002,
+				"buffer_size": 1144,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "makefile",
-			"settings":
-			{
-				"buffer_size": 550,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -508,10 +500,32 @@
 	},
 	"file_history":
 	[
-		"/home/taras/dev/biplanes/main.cpp",
+		"/home/taras/dev/biplanes/plane.cpp",
 		"/home/taras/dev/biplanes/game.cpp",
-		"/home/taras/dev/city-simulator-old/engine/road.h",
+		"/home/taras/dev/biplanes/bullet.cpp",
+		"/home/taras/dev/city-simulator/makefile",
+		"/home/taras/dev/city-simulator/engine/position.cpp",
+		"/home/taras/dev/city-simulator/engine/position.h",
+		"/home/taras/dev/city-simulator/engine/edge.cpp",
+		"/home/taras/dev/city-simulator-old/engine/croad.h",
+		"/home/taras/dev/city-simulator/engine/graph.h",
+		"/home/taras/dev/city-simulator/engine/node.cpp",
+		"/home/taras/dev/city-simulator/engine/node.h",
+		"/home/taras/dev/city-simulator/main.cpp",
+		"/home/taras/dev/city-simulator/engine/graph.cpp",
+		"/home/taras/dev/city-simulator/engine/edge.h",
 		"/home/taras/dev/city-simulator/graph.txt",
+		"/home/taras/dev/city-simulator/temp_graph.txt",
+		"/home/taras/dev/private/oppinion.cpp",
+		"/home/taras/dev/private/oppinion",
+		"/home/taras/dev/private/oppinion.c",
+		"/home/taras/dev/private/ans",
+		"/home/taras/dev/private/корисні поради",
+		"/home/taras/dev/folders",
+		"/home/taras/dev/find",
+		"/home/taras/dev/discrette/realizations/fold",
+		"/home/taras/dev/city-simulator/engine/lol",
+		"/home/taras/dev/city-simulator-old/engine/road.h",
 		"/home/taras/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
 		"/home/taras/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/taras/dev/city-simulator/README.md",
@@ -522,10 +536,8 @@
 		"/usr/include/c++/4.8.2/iostream",
 		"/usr/include/c++/4.8.2/istream",
 		"/usr/include/c++/4.8.2/ostream",
-		"/home/taras/dev/city-simulator/engine/edge.h",
 		"/media/win/Users/Taras/Downloads/1.pas",
 		"/home/taras/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
-		"/home/taras/dev/city-simulator/makefile",
 		"/home/taras/makefile",
 		"/home/taras/.config/sublime-text-2/Packages/C++/C++.sublime-build",
 		"/home/taras/Downloads/map.osm",
@@ -537,15 +549,7 @@
 		"/home/taras/music",
 		"/home/taras/touchpad_settings.sh",
 		"/home/taras/.config/sublime-text-2/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
-		"/home/taras/dev/city-simulator/engine/position.cpp",
-		"/home/taras/dev/city-simulator/engine/position.h",
 		"/home/taras/dev/city-simulator/city-simulator.sublime-workspace",
-		"/home/taras/dev/city-simulator/engine/node.cpp",
-		"/home/taras/dev/city-simulator/engine/node.h",
-		"/home/taras/dev/city-simulator/engine/edge.cpp",
-		"/home/taras/dev/city-simulator/engine/graph.h",
-		"/home/taras/dev/city-simulator/main.cpp",
-		"/home/taras/dev/city-simulator/engine/graph.cpp",
 		"/home/taras/dev/city-simulator-old/input/cars.in",
 		"/home/taras/dev/city-simulator-old/input/rel.in",
 		"/home/taras/dev/city-simulator-old/input/map.in",
@@ -623,19 +627,7 @@
 		"/C/Users/Taras/Downloads/matrix",
 		"/D/Новая папка/Программы/8_2.cpp",
 		"/D/Games/World Of Tanks/res_mods/xvm/configs/colors.xc",
-		"/D/8_2.cpp",
-		"/E/md5sum.txt",
-		"/C/Users/Taras/Downloads/input.txt",
-		"/C/Users/Taras/Downloads/exam.txt",
-		"/C/Users/Taras/Downloads/bilet_5_2.txt",
-		"/G/прога/5_2.cpp",
-		"/G/Bilety/5(2).cpp",
-		"/E/TXT/examKovaluk/prog/5_2.txt",
-		"/E/TXT/examKovaluk/prog/IMPORTANT.txt",
-		"/D/Education/Programming/1 курс/1 курс/Другий семестр/Algoritm&Programming/Labs/Lab 4_1/Lab 4_1/Lab 4_1.cpp",
-		"/C/Users/Taras/Downloads/sources/PALEVO/11_2.cpp",
-		"/G/EXAM/9/9/9.cpp",
-		"/D/Education/Programming/1 курс/1 курс/Другий семестр/Algoritm&Programming/Labs/Lab 2_1/Lab 2_1/1.cpp"
+		"/D/8_2.cpp"
 	],
 	"find":
 	{
@@ -654,8 +646,30 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"5",
-			"start",
+			"}\n",
+			"reload",
+			"0.01",
+			"	\n",
+			"int",
+			"+ num",
+			"cor",
+			"midLineStart",
+			"	\n",
+			" << \" \"",
+			"cos",
+			"Position operator - (const Position&);",
+			"pos",
+			".txt\n",
+			".md",
+			".hpp\n",
+			".png\n",
+			".so\n",
+			"makefile",
+			".git",
+			".h\n",
+			".o\n",
+			"cpp",
+			"\n./",
 			"10",
 			"dirty",
 			"delay",
@@ -759,29 +773,7 @@
 			"i",
 			"int",
 			"n",
-			"k",
-			"word_len",
-			"j",
-			"s2",
-			"strlen(lex[i])",
-			"lex[i]",
-			"j",
-			"s2",
-			"groups",
-			"group",
-			"\";\n",
-			"i",
-			"cerr",
-			"lex1Num",
-			"lex1",
-			"position",
-			"s1",
-			"lexNum",
-			"lex1Num",
-			"lex1",
-			"lexeme",
-			"lexeme1",
-			"lexemes"
+			"k"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -807,15 +799,15 @@
 					"file": "main.cpp",
 					"settings":
 					{
-						"buffer_size": 1732,
+						"buffer_size": 1757,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								494,
-								494
+								0,
+								0
 							]
 						],
 						"settings":
@@ -824,17 +816,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 312.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "engine/node.h",
+					"file": "engine/graph.hpp",
 					"settings":
 					{
-						"buffer_size": 361,
+						"buffer_size": 304,
 						"regions":
 						{
 						},
@@ -847,29 +839,28 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 200.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "engine/node.cpp",
+					"file": "engine/graph.cpp",
 					"settings":
 					{
-						"buffer_size": 429,
+						"buffer_size": 1644,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								319,
+								319
 							]
 						],
 						"settings":
@@ -878,17 +869,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 336.0,
+						"translation.y": 609.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "engine/graph.h",
+					"file": "engine/edge.hpp",
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 508,
 						"regions":
 						{
 						},
@@ -905,25 +896,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 200.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "engine/graph.cpp",
+					"file": "engine/edge.cpp",
 					"settings":
 					{
-						"buffer_size": 1276,
+						"buffer_size": 1406,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								865,
+								865
 							]
 						],
 						"settings":
@@ -932,52 +923,51 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1421.0,
+						"translation.y": 1024.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "/home/taras/dev/city-simulator-old/engine/croad.h",
+					"file": "engine/line.hpp",
 					"settings":
 					{
-						"buffer_size": 470,
+						"buffer_size": 338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								172,
+								172
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 205.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "engine/edge.cpp",
+					"file": "engine/line.cpp",
 					"settings":
 					{
-						"buffer_size": 2036,
+						"buffer_size": 1771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1790,
-								1790
+								1447,
+								1447
 							]
 						],
 						"settings":
@@ -986,25 +976,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 616.0,
+						"translation.y": 621.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "engine/edge.h",
+					"file": "engine/node.hpp",
 					"settings":
 					{
-						"buffer_size": 269,
+						"buffer_size": 430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								189,
-								189
+								430,
+								430
 							]
 						],
 						"settings":
@@ -1013,17 +1003,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 73.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "engine/position.h",
+					"file": "engine/node.cpp",
 					"settings":
 					{
-						"buffer_size": 438,
+						"buffer_size": 575,
 						"regions":
 						{
 						},
@@ -1040,17 +1030,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 204.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 9,
-					"file": "engine/position.cpp",
+					"file": "engine/position.hpp",
 					"settings":
 					{
-						"buffer_size": 1002,
+						"buffer_size": 495,
 						"regions":
 						{
 						},
@@ -1067,33 +1057,34 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1212.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 10,
-					"file": "makefile",
+					"file": "engine/position.cpp",
 					"settings":
 					{
-						"buffer_size": 550,
+						"buffer_size": 1144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								175,
+								175
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 87.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1110,8 +1101,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								127,
+								127
 							]
 						],
 						"settings":
@@ -1164,7 +1155,7 @@
 	},
 	"output.exec":
 	{
-		"height": 480.0
+		"height": 161.0
 	},
 	"replace":
 	{

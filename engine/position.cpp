@@ -2,70 +2,67 @@
 
 const double PI = acos(- 1);
 
-Position::Position()
-{
-	_x = 0;
-	_y = 0;
-}
+Position::Position() : c {0, 0}
+{}
 
-Position::Position(const int& x, const int& y)
-{
-	_x = x;
-	_y = y;
-}
+Position::Position(const double& x, const double& y) : c {x, y}
+{}
 
 Position::~Position()
-{
+{}
 
+const double& Position::x() const
+{
+	return c[0];
 }
 
-double Position::x()
+const double& Position::y() const
 {
-	return _x;
-}
-
-double Position::y()
-{
-	return _y;
+	return c[1];
 }
 
 void Position::x(const double& x)
 {
-	_x = x;
+	c[0] = x;
 }
 
 void Position::y(const double& y)
 {
-	_y = y;
+	c[1] = y;
 }
 
-double Position::distance()
+double Position::distance() const
 {
-	return sqrt(_x * _x + _y * _y);
+	return sqrt(c[0] * c[0] + c[1] * c[1]);
 }
 
-double Position::distance(const Position& other)
+double Position::distance(const Position& other) const
 {
-	return sqrt((_x - other._x) * (_x - other._x) + (_y - other._y) * (_y - other._y));
+	return sqrt((c[0] - other.c[0]) * (c[0] - other.c[0]) + (c[1] - other.c[1]) * (c[1] - other.c[1]));
 }
 
-double Position::angle()
+double Position::angle() const
 {
-	if (_y > 0)
-		return acos(_x / distance());
+	if (c[1] > 0)
+		return acos(c[0] / distance());
 	else
-		return 2 * PI - acos(_x / distance());
+		return 2 * PI - acos(c[0] / distance());
 }
 
-double Position::angle(const Position& other)
+double Position::angle(const Position& other) const
 {
-	if (_y - other._y > 0)
-		return acos((_x - other._x) / distance(other));
+	if (c[1] - other.c[1] > 0)
+		return acos((c[0] - other.c[0]) / distance(other));
 	else
-		return 2 * PI - acos((_x - other._x) / distance(other));
+		return 2 * PI - acos((c[0] - other.c[0]) / distance(other));
 }
 
-Position Position::operator - (const Position& other)
+const double* Position::v() const
 {
-	return Position (this->_x - other._x, this->_y - other._y);
+	return c;
+}
+
+const Position Position::operator - (const Position& other) const
+{
+	return Position (this->c[0] - other.c[0], this->c[1] - other.c[1]);
 }

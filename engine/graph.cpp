@@ -2,14 +2,10 @@
 #include "graph.hpp"
 
 Graph::Graph()
-{
-
-}
+{}
 
 Graph::~Graph()
-{
-
-}
+{}
 
 bool Graph::load(const char* filename)
 {
@@ -20,7 +16,7 @@ bool Graph::load(const char* filename)
 		openMapEditor();
 	}
 	int nodeNum;
-	int edgeNum;
+	int roadNum;
 	int tmp;
 	input >> nodeNum;
 	for (int i = 0; i < nodeNum; ++i)
@@ -34,11 +30,11 @@ bool Graph::load(const char* filename)
 		nodePos.y(tmp);
 		node.push_back(nodePos);
 	}
-	input >> edgeNum;
+	input >> roadNum;
 	int roadStart;
 	int roadDest;
 	int roadLines;
-	for (int i = 0; i < edgeNum; ++i)
+	for (int i = 0; i < roadNum; ++i)
 	{
 		if (input.eof()) return false;
 		input >> roadStart;
@@ -49,12 +45,17 @@ bool Graph::load(const char* filename)
 		if (input.eof()) return false;
 		input >> roadLines;
 		if (roadLines < 1) return false;
-		edge.push_back(Edge(node.begin() + roadStart - 1, node.begin() + roadDest - 1, roadLines));
+		road.push_back(Road(node.begin() + roadStart - 1, node.begin() + roadDest - 1, roadLines));
 	}
-	// std::cerr << "what's wrong?";
-	for (std::vector<Edge>::iterator i = edge.begin(); i != edge.end(); ++i)
+	
+	for (std::vector<Road>::iterator i = road.begin(); i != road.end(); ++i)
 	{
-		for (std::vector<Edge>::iterator j = edge.begin(); j != edge.end(); ++j)
+		i->s()->addRoad(i);
+	}
+	node.at(roadStart - 1).addRoad(road.end() - 1);
+	for (std::vector<Road>::iterator i = road.begin(); i != road.end(); ++i)
+	{
+		for (std::vector<Road>::iterator j = road.begin(); j != road.end(); ++j)
 		{
 			if (i->isBackRoad(j))
 			{
@@ -62,13 +63,18 @@ bool Graph::load(const char* filename)
 			}
 		}
 	}
+	for (std::vector<Road>::iterator i = road.begin(); i != road.end(); ++i)
+	{
+		i->initLines();
+	}
+
+	car.push_back(Car(road.begin(), 1, 0));
+	std::cerr << "\n" << node[2].roads()[0]->lines()[0].len() << "\n";
 	return true;
 }
 
 void Graph::generate()
-{
-
-}
+{}
 
 void Graph::render()
 {
@@ -76,13 +82,28 @@ void Graph::render()
 	// {
 	// 	i->render();
 	// }
-	for (std::vector<Edge>::iterator i = edge.begin(); i != edge.end(); ++i)
+
+	for (std::vector<Road>::iterator i = road.begin(); i != road.end(); ++i)
+	{
+		i->render();
+	}
+	for (std::vector<Car>::iterator i = car.begin(); i != car.end(); ++i)
 	{
 		i->render();
 	}
 }
 
-void Graph::openMapEditor()
+void Graph::advance()
 {
-
+	for (std::vector<Car>::iterator i = car.begin(); i < car.end(); ++i)
+	{
+		if (i->advance())
+		{
+			car.erase(i);
+			i--;	
+		}
+	}
 }
+
+void Graph::openMapEditor()
+{}

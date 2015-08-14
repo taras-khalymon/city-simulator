@@ -8,21 +8,23 @@ endif
 
 all: main
 
-main: main.o graph.o edge.o line.o node.o position.o
-	g++ main.o graph.o edge.o line.o node.o position.o $(COMPILE_OPT) -o main$(EXEEXT)
+main: main.o graph.o road.o line.o node.o car.o position.o
+	g++ main.o graph.o road.o line.o node.o car.o position.o $(COMPILE_OPT) -o main$(EXEEXT)
 
 main.o: main.cpp
-	g++ -c main.cpp
-graph.o: engine/graph.cpp
-	g++ -c engine/graph.cpp
-edge.o: engine/edge.cpp
-	g++ -c engine/edge.cpp
-line.o: engine/line.cpp
-	g++ -c engine/line.cpp
-node.o: engine/node.cpp
-	g++ -c engine/node.cpp
-position.o: engine/position.cpp
-	g++ -c engine/position.cpp
+	g++ -c -std=c++11 main.cpp
+graph.o: engine/graph.cpp engine/graph.hpp
+	g++ -c -std=c++11 engine/graph.cpp
+road.o: engine/road.cpp engine/road.hpp
+	g++ -c -std=c++11 engine/road.cpp
+line.o: engine/line.cpp engine/line.hpp
+	g++ -c -std=c++11 engine/line.cpp
+node.o: engine/node.cpp engine/node.hpp
+	g++ -c -std=c++11 engine/node.cpp
+car.o: engine/car.cpp engine/car.hpp
+	g++ -c -std=c++11 engine/car.cpp
+position.o: engine/position.cpp engine/position.hpp
+	g++ -c -std=c++11 engine/position.cpp
 
 clean:
 	rm -f *.o main$(EXEEXT)

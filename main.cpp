@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
 void display()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
+	graph.advance();
 	graph.render();
 	glutSwapBuffers();
 }
@@ -37,19 +38,13 @@ void timer(int)
 }
 
 void mousePressed(int button, int state, int x, int y)
-{
-
-}
+{}
 
 void mouseMove(int x, int y)
-{
-
-}
+{}
 
 void mousePressedMove(int x, int y)
-{
-
-}
+{}
 
 void keyboard(unsigned char key, int x, int y)
 {
@@ -63,9 +58,7 @@ void keyboard(unsigned char key, int x, int y)
 }
 
 void specialKeyboard(int key, int x, int y)
-{
-
-}
+{}
 
 void initGLUT(int argc, char** argv)
 {

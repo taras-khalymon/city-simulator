@@ -1,24 +1,25 @@
-#ifndef __NODE_H__
-#define __NODE_H__
+#ifndef __NODE_HPP__
+#define __NODE_HPP__
 
 #include <vector>
 #include "position.hpp"
 
 class Node;
-class Edge;
+class Road;
 
 typedef std::vector<Node>::iterator NodeRef;
 
-#include "edge.hpp"
+#include "road.hpp"
 
 class Node
 {
 public:
-	Node();
 	Node(Position);
 	~Node();
 
-	void addRoad(NodeRef dest, int lines);
+	void addRoad(RoadRef road);
+	
+	const std::vector<RoadRef>& roads() const;
 
 	void render();
 
@@ -28,6 +29,9 @@ public:
 
 private:
 	Position nodePos;
+
+	std::vector<RoadRef> road;
+
 	double posvec[2];
 	int id;
 

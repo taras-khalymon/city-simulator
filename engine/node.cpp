@@ -3,27 +3,23 @@
 
 int Node::curId = 0;
 
-Node::Node()
+Node::Node(Position pos) : nodePos(pos)
 {
-	curId++;
-	id = curId;
-}
-
-Node::Node(Position pos)
-{
-	nodePos = pos;
 	curId++;
 	id = curId;
 }
 
 Node::~Node()
+{}
+
+void Node::addRoad(RoadRef road)
 {
-	
+	this->road.push_back(road);
 }
 
-void Node::addRoad(NodeRef, int lines)
+const std::vector<RoadRef>& Node::roads() const
 {
-
+	return road;
 }
 
 Position Node::pos()

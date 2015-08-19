@@ -1,3 +1,4 @@
+#include <iostream>
 #include <GL/glut.h>
 #include "node.hpp"
 
@@ -17,7 +18,7 @@ void Node::addRoad(RoadRef road)
 	this->road.push_back(road);
 }
 
-const std::vector<RoadRef>& Node::roads() const
+std::vector<RoadRef> Node::roads()
 {
 	return road;
 }

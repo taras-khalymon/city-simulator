@@ -54,6 +54,9 @@ void keyboard(unsigned char key, int x, int y)
 		glutDestroyWindow(1);
 		exit(0);
 		break;
+	case ' ':
+		graph.addCar();
+		break;
 	}
 }
 

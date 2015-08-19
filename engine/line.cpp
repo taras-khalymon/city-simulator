@@ -1,9 +1,12 @@
+#include <iostream>
 #include <GL/glut.h>
 
 #include "line.hpp"
 
 Line::Line()
-{}
+{
+	edgeLine =  false;
+}
 
 Line::~Line()
 {}
@@ -11,15 +14,16 @@ Line::~Line()
 void Line::init(const Position& start, const Position& dest, int num, double w, int lines, int backLines)
 {
 	double cor = (double)(lines - backLines) / 2;
+	cor = 0;
 	static const double PI = acos(-1);
 	angle = start.angle(dest) - PI / 2;
 	Position a;
 	
-	this->start.x(start.x() - cos(angle + PI / 2) * w + cos(angle) * w * (num - cor));
-	this->start.y(start.y() - sin(angle + PI / 2) * w + sin(angle) * w * (num - cor));
+	this->start.x(start.x()/* - cos(angle + PI / 2) * w * 0*/ + cos(angle) * w * (num - cor));
+	this->start.y(start.y()/* - sin(angle + PI / 2) * w * 0*/ + sin(angle) * w * (num - cor));
 
-	this->dest.x(dest.x() + cos(angle + PI / 2) * w + cos(angle) * w * (num - cor));
-	this->dest.y(dest.y() + sin(angle + PI / 2) * w + sin(angle) * w * (num - cor));
+	this->dest.x(dest.x()/* + cos(angle + PI / 2) * w * 0*/ + cos(angle) * w * (num - cor));
+	this->dest.y(dest.y()/* + sin(angle + PI / 2) * w * 0*/ + sin(angle) * w * (num - cor));
 
 	carPlace[0] = Position(this->start.x() - cos(angle) * w / 2, this->start.y() - sin(angle) * w / 2);
 	carPlace[1] = Position(this->dest.x() - cos(angle) * w / 2, this->dest.y() - sin(angle) * w / 2);
@@ -71,4 +75,29 @@ void Line::render()
 	glVertex2dv(arrow[1].v());
 	glVertex2dv(arrow[3].v());
 	glEnd();
+}
+
+double Line::intersect(Line line)
+{
+	// std::cerr << "LOL";
+	// // just a back road line
+	// if (this->dest == line.start) return 0;
+	// static const double PI = acos(-1);
+	// double k1 = tan(this->angle);
+	// double k2 = tan(line.angle - PI);
+	// double x;
+	// double y;
+	// if (this->start.x() == this->dest.x())
+	// {
+	// 	x = this->start.x();
+	// 	y = line.start.y() - (line.dest.y() - line.start.y()) * (line.dest.x() - line.start.x()) * line.start.x();
+	// 	dest = Position(x, y);
+	// }
+	// if (line.start.x() == line.dest.x())
+	// {
+	// 	x = line.start.x();
+	// 	y = line.start.y() - (line.dest.y() - line.start.y()) * (line.dest.x() - line.start.x()) * line.start.x();
+	// 	dest = Position(x, y);
+	// }
+	return 0;
 }

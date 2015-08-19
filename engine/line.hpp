@@ -3,6 +3,12 @@
 
 #include "position.hpp"
 
+#include <vector>
+class Line;
+typedef std::vector<Line>::iterator LineRef;
+
+#include "road.hpp"
+
 class Line
 {
 public:
@@ -14,17 +20,29 @@ public:
 	const double& ang() const;
 	const double& len() const;
 	void render();
+	double intersect(Line l);
 private:
+
+
 	Position start;
 	Position dest;
 
 	double angle;
 	double lenth;
 
+	double stDist;
+	double dsDist;
+
+
 	Position carPlace[2];
 
 	// line start, dest, arrow parts
 	Position arrow[4];
+	RoadRef left;
+	RoadRef strait;
+	RoadRef right;
+
+	bool edgeLine;
 };
 
 #endif

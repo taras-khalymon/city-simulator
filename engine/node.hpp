@@ -18,8 +18,9 @@ public:
 	~Node();
 
 	void addRoad(RoadRef road);
+	void addBackRoad(RoadRef road);
 	
-	const std::vector<RoadRef>& roads() const;
+	std::vector<RoadRef> roads();
 
 	void render();
 

@@ -17,6 +17,7 @@ public:
 	void render();
 	void advance();
 	void openMapEditor();
+	void addCar();
 
 private:
 	std::vector<Node> node;

@@ -24,6 +24,8 @@ public:
 	bool isBackRoad(RoadRef road);
 	void initBackRoad(RoadRef road);
 	void initLines();
+	void initLLen();
+	const LineRef edgeLine() const;
 
 	const NodeRef& s() const;
 	const NodeRef& d() const;

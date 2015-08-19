@@ -24,6 +24,8 @@ public:
 
 	const double* v() const;
 
+	const bool operator == (const Position&) const;
+
 	const Position operator - (const Position&) const;
 
 private:

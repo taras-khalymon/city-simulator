@@ -62,6 +62,12 @@ const double* Position::v() const
 	return c;
 }
 
+const bool Position::operator == (const Position& other) const
+{
+	if (c[0] == other.c[0] && c[1] == other.c[1]) return true;
+	return false;
+}
+
 const Position Position::operator - (const Position& other) const
 {
 	return Position (this->c[0] - other.c[0], this->c[1] - other.c[1]);

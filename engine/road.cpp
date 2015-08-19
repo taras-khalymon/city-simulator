@@ -1,4 +1,5 @@
 #include <GL/glut.h>
+#include <iostream>
 #include "road.hpp"
 
 double Road::w = 30;
@@ -49,18 +50,31 @@ void Road::initLines()
 	double angle = start->pos().angle(dest->pos()) - PI / 2;
 
 	double cor = (double)(line.size() - backLines) / 2;
+	cor = 0;
 
-	midLineStart.x(start->pos().x() - cos(angle + PI / 2) * w - cos(angle) * w * cor);
-	midLineStart.y(start->pos().y() - sin(angle + PI / 2) * w - sin(angle) * w * cor);
+	midLineStart.x(start->pos().x()/* - cos(angle + PI / 2) * w*/ - cos(angle) * w * cor);
+	midLineStart.y(start->pos().y()/* - sin(angle + PI / 2) * w*/ - sin(angle) * w * cor);
 
-	midLineDest.x(dest->pos().x() + cos(angle + PI / 2) * w - cos(angle) * w * cor);
-	midLineDest.y(dest->pos().y() + sin(angle + PI / 2) * w - sin(angle) * w * cor);
+	midLineDest.x(dest->pos().x()/* + cos(angle + PI / 2) * w*/ - cos(angle) * w * cor);
+	midLineDest.y(dest->pos().y()/* + sin(angle + PI / 2) * w*/ - sin(angle) * w * cor);
 
 	int num = 0;
 	for (std::vector<Line>::iterator i = line.begin(); i != line.end(); ++i)
 	{
 		num++;
 		i->init(start->pos(), dest->pos(), num, w, line.size(), backLines);
+	}
+}
+
+void Road::initLLen()
+{
+
+	// RoadRef i = dest->roads().front();
+	// for (std::vector<RoadRef>::iterator i = dest->roads().begin(); i < dest->roads().end(); ++i)
+	{
+		// std::cerr << i->midLineDest.x();
+		// line.back().intersect((*i)->line.back());
+		// std::cerr << "AAA ";
 	}
 }
 

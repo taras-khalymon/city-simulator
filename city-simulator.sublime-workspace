@@ -4,16 +4,56 @@
 		"selected_items":
 		[
 			[
+				"l",
+				"line	std::vector<Line>"
+			],
+			[
+				"li",
+				"lines() const	const std::vector<Line>"
+			],
+			[
+				"begin",
+				"begin() const	const_iterator"
+			],
+			[
+				"ra",
+				"roads() const	const std::vector<RoadRef> &"
+			],
+			[
+				"d",
+				"d() const	const NodeRef &"
+			],
+			[
+				"road",
+				"roadStart	int"
+			],
+			[
+				"Edge",
+				"EdgeRef	typedef"
+			],
+			[
 				"x",
-				"x(const double &x)	void"
+				"x() const	const double &"
+			],
+			[
+				"v",
+				"v() const	const double *"
+			],
+			[
+				"GL_Q",
+				"GL_QUADS	macro"
+			],
+			[
+				"ca",
+				"carPlace	Position [2]"
+			],
+			[
+				"POS",
+				"pos	CarPos"
 			],
 			[
 				"edge",
 				"edgeNum	int"
-			],
-			[
-				"road",
-				"roadLines	int"
 			],
 			[
 				"line",
@@ -192,10 +232,6 @@
 				"card_num	int"
 			],
 			[
-				"ca",
-				"cards	int *"
-			],
-			[
 				"remove",
 				"remove_last_card()	void"
 			],
@@ -371,7 +407,7 @@
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 1757,
+				"buffer_size": 1805,
 				"line_ending": "Windows"
 			}
 		},
@@ -379,7 +415,7 @@
 			"file": "engine/graph.hpp",
 			"settings":
 			{
-				"buffer_size": 304,
+				"buffer_size": 383,
 				"line_ending": "Windows"
 			}
 		},
@@ -387,23 +423,23 @@
 			"file": "engine/graph.cpp",
 			"settings":
 			{
-				"buffer_size": 1644,
+				"buffer_size": 2515,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "engine/edge.hpp",
+			"file": "engine/road.hpp",
 			"settings":
 			{
-				"buffer_size": 508,
+				"buffer_size": 659,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "engine/edge.cpp",
+			"file": "engine/road.cpp",
 			"settings":
 			{
-				"buffer_size": 1406,
+				"buffer_size": 1828,
 				"line_ending": "Windows"
 			}
 		},
@@ -411,7 +447,7 @@
 			"file": "engine/line.hpp",
 			"settings":
 			{
-				"buffer_size": 338,
+				"buffer_size": 707,
 				"line_ending": "Unix"
 			}
 		},
@@ -419,7 +455,7 @@
 			"file": "engine/line.cpp",
 			"settings":
 			{
-				"buffer_size": 1771,
+				"buffer_size": 2994,
 				"line_ending": "Unix"
 			}
 		},
@@ -427,7 +463,7 @@
 			"file": "engine/node.hpp",
 			"settings":
 			{
-				"buffer_size": 430,
+				"buffer_size": 510,
 				"line_ending": "Windows"
 			}
 		},
@@ -435,15 +471,33 @@
 			"file": "engine/node.cpp",
 			"settings":
 			{
-				"buffer_size": 575,
+				"buffer_size": 626,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "engine/car.hpp",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Unix",
+				"name": "car.hpp"
+			}
+		},
+		{
+			"file": "engine/car.cpp",
+			"settings":
+			{
+				"buffer_size": 1193,
+				"line_ending": "Unix",
+				"name": "car.cpp"
 			}
 		},
 		{
 			"file": "engine/position.hpp",
 			"settings":
 			{
-				"buffer_size": 495,
+				"buffer_size": 593,
 				"line_ending": "Unix"
 			}
 		},
@@ -451,7 +505,7 @@
 			"file": "engine/position.cpp",
 			"settings":
 			{
-				"buffer_size": 1144,
+				"buffer_size": 1305,
 				"line_ending": "Unix"
 			}
 		},
@@ -459,8 +513,16 @@
 			"file": "graph.txt",
 			"settings":
 			{
-				"buffer_size": 244,
+				"buffer_size": 802,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "makefile",
+			"settings":
+			{
+				"buffer_size": 882,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -500,13 +562,14 @@
 	},
 	"file_history":
 	[
+		"/home/taras/dev/city-simulator/engine/edge.hpp",
+		"/home/taras/dev/city-simulator/engine/edge.cpp",
 		"/home/taras/dev/biplanes/plane.cpp",
 		"/home/taras/dev/biplanes/game.cpp",
 		"/home/taras/dev/biplanes/bullet.cpp",
 		"/home/taras/dev/city-simulator/makefile",
 		"/home/taras/dev/city-simulator/engine/position.cpp",
 		"/home/taras/dev/city-simulator/engine/position.h",
-		"/home/taras/dev/city-simulator/engine/edge.cpp",
 		"/home/taras/dev/city-simulator-old/engine/croad.h",
 		"/home/taras/dev/city-simulator/engine/graph.h",
 		"/home/taras/dev/city-simulator/engine/node.cpp",
@@ -626,8 +689,7 @@
 		"/C/Users/Taras/biplanes/makefile",
 		"/C/Users/Taras/Downloads/matrix",
 		"/D/Новая папка/Программы/8_2.cpp",
-		"/D/Games/World Of Tanks/res_mods/xvm/configs/colors.xc",
-		"/D/8_2.cpp"
+		"/D/Games/World Of Tanks/res_mods/xvm/configs/colors.xc"
 	],
 	"find":
 	{
@@ -646,6 +708,39 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"std::ce",
+			"std",
+			"line",
+			"initLLen",
+			"this",
+			"0",
+			"7",
+			"5",
+			"300",
+			"100",
+			"\n",
+			"l",
+			"pos.road->lines()[pos.line]",
+			"line",
+			"edge",
+			"Edge",
+			"ang",
+			"pos.line.carPos()[0]",
+			"render",
+			"lineNum",
+			"start",
+			"node.o ",
+			"node",
+			"{\n\n}",
+			"{\n	\n}",
+			"{",
+			"{\n	\n}",
+			"int",
+			".o:",
+			"int",
+			"Car",
+			"_HPP__",
+			"__NODE_H__",
 			"}\n",
 			"reload",
 			"0.01",
@@ -740,40 +835,7 @@
 			"good",
 			"exStudent",
 			" < ",
-			" = ",
-			" ",
-			"Search",
-			"User_add",
-			"noBadStuds",
-			"rotateWord",
-			"averageMark",
-			"i",
-			"endl",
-			"зчитуємо",
-			"inputFile",
-			"input",
-			"pause",
-			"#",
-			"int",
-			"goodStudent",
-			"goodStudNum",
-			"групи",
-			"l",
-			"int",
-			"group",
-			"marks",
-			"++",
-			"i",
-			"++)",
-			"++i",
-			"groups",
-			"max_color",
-			"remove_las",
-			"card_num",
-			"i",
-			"int",
-			"n",
-			"k"
+			" = "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -781,6 +843,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"road",
+			"Road",
+			"{}"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -791,7 +856,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -799,15 +864,15 @@
 					"file": "main.cpp",
 					"settings":
 					{
-						"buffer_size": 1757,
+						"buffer_size": 1805,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1805,
+								1805
 							]
 						],
 						"settings":
@@ -816,7 +881,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1428.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -826,20 +891,21 @@
 					"file": "engine/graph.hpp",
 					"settings":
 					{
-						"buffer_size": 304,
+						"buffer_size": 383,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								45,
+								45
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -852,15 +918,15 @@
 					"file": "engine/graph.cpp",
 					"settings":
 					{
-						"buffer_size": 1644,
+						"buffer_size": 2515,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								319,
-								319
+								2098,
+								2098
 							]
 						],
 						"settings":
@@ -869,25 +935,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 609.0,
+						"translation.y": 2158.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "engine/edge.hpp",
+					"file": "engine/road.hpp",
 					"settings":
 					{
-						"buffer_size": 508,
+						"buffer_size": 659,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								382,
+								382
 							]
 						],
 						"settings":
@@ -896,25 +962,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 425.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "engine/edge.cpp",
+					"file": "engine/road.cpp",
 					"settings":
 					{
-						"buffer_size": 1406,
+						"buffer_size": 1828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								865,
-								865
+								1473,
+								1473
 							]
 						],
 						"settings":
@@ -923,7 +989,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1024.0,
+						"translation.y": 1414.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -933,20 +999,21 @@
 					"file": "engine/line.hpp",
 					"settings":
 					{
-						"buffer_size": 338,
+						"buffer_size": 707,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								172,
-								172
+								1,
+								1
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -959,15 +1026,15 @@
 					"file": "engine/line.cpp",
 					"settings":
 					{
-						"buffer_size": 1771,
+						"buffer_size": 2994,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1447,
-								1447
+								2530,
+								2530
 							]
 						],
 						"settings":
@@ -976,7 +1043,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 621.0,
+						"translation.y": 1683.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -986,15 +1053,15 @@
 					"file": "engine/node.hpp",
 					"settings":
 					{
-						"buffer_size": 430,
+						"buffer_size": 510,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								430,
-								430
+								257,
+								257
 							]
 						],
 						"settings":
@@ -1003,7 +1070,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 73.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1013,15 +1080,15 @@
 					"file": "engine/node.cpp",
 					"settings":
 					{
-						"buffer_size": 575,
+						"buffer_size": 626,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								234,
+								234
 							]
 						],
 						"settings":
@@ -1037,45 +1104,74 @@
 				},
 				{
 					"buffer": 9,
-					"file": "engine/position.hpp",
+					"file": "engine/car.hpp",
 					"settings":
 					{
-						"buffer_size": 495,
+						"buffer_size": 416,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								300,
+								300
 							]
 						],
 						"settings":
 						{
+							"auto_name": "car.hpp",
 							"syntax": "Packages/C++/C++.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 23.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 10,
-					"file": "engine/position.cpp",
+					"file": "engine/car.cpp",
 					"settings":
 					{
-						"buffer_size": 1144,
+						"buffer_size": 1193,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								175,
-								175
+								1161,
+								1161
+							]
+						],
+						"settings":
+						{
+							"auto_name": "car.cpp",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 602.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "engine/position.hpp",
+					"settings":
+					{
+						"buffer_size": 593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								593,
+								593
 							]
 						],
 						"settings":
@@ -1084,30 +1180,83 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 87.0,
+						"translation.y": 23.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "graph.txt",
+					"buffer": 12,
+					"file": "engine/position.cpp",
 					"settings":
 					{
-						"buffer_size": 244,
+						"buffer_size": 1305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								1136,
+								1136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 748.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "graph.txt",
+					"settings":
+					{
+						"buffer_size": 802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								682,
+								682
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 435.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "makefile",
+					"settings":
+					{
+						"buffer_size": 882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1155,11 +1304,11 @@
 	},
 	"output.exec":
 	{
-		"height": 161.0
+		"height": 170.0
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
